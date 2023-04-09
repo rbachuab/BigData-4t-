@@ -1,4 +1,4 @@
-# python
+# Introducció a Python 2
 
 Versió de Python -> cada versió implementa noves funcions/n'aparta les obsoletes.
 
@@ -6,18 +6,18 @@ Python parteix d'una BASE, tot el que volguem i que no estigui inclòs a la base
 
 Per solucionar la incompatibilitat entre versions PyCharm genera entorns virtuals per cada projecte amb la versió desitjada.
 
-#### LLibreries
+## LLibreries
 
 Les llibreries s'instal·len a cadascun dels projectes en cas de no haver-les instal·lat a l'arrel de python de l'ordinador.
 
-### Variables
+## Variables
 
 Són immutables
 
 ````python
 """ Fan un comentari"""
 ````
-### Llistes
+## Llistes
 
 ```Python
 array=["a","b","c"]
@@ -32,7 +32,7 @@ for a in array:
     print(f"En {Nom} no ha vingut a classe :(")
 ```
 
-### For
+## For
 
 Loops per iterar arrays 
 
@@ -45,9 +45,9 @@ for alumnes in num:
     print(alumnes)
 ```
 
-### Condicionals
+# Condicionals
 
-##### If/Else
+## If/Else
 
 ```python
 llista_compra=["Pomes", "Tomaquets", "iogurt"]  
@@ -59,7 +59,7 @@ for producte in llista_compra:
         print("No hi ha tomaquets a la llista")
 ```
 
-##### Elif
+## Elif
 Per comprovar més de dos condicions
 
 ```python
@@ -74,10 +74,11 @@ for num in nums:
         print(f"{num} és més gran que 6")
 ```
 
-##### Len
+##Funcions
+### Len
 Funció integrada a python per contar el nombre d'elements d'una llista, una string etc.
 
-#### Index
+### Index
 Aquesta funció ens permet saber quin index ocupa un element dins d'una llista.
 
 ```python
