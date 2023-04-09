@@ -1,5 +1,5 @@
 
-# Twitch Dev
+# Twitch API
 
 Tota la comunicació entre el frontend/aplicació d'escriptori d'una plataforma i les bases de dades passen per una API intermediaria.
 
@@ -9,7 +9,7 @@ Per fer solicituds a una api hi ha dues vies:
 		Són versions on s'ha afegit un nivell de codi per simplificar el procés de peticions de dades. En aquest cas són llibreries.
 
 
-### 1. Generem les credencials per comunicar-nos amb la API
+## 1. Generem les credencials per comunicar-nos amb la API
 
 Primer de tot hem de registrar l'aplicació a la consola. Com a url posem el localhost
 
@@ -24,7 +24,7 @@ Aleshores instalem a PyChart l'API en la versió amb la que treballarem.
 ```python
 pip install twitchAPI==2.5.7.1 #instal·lació de les llibreries de la API
 ```
-### 2. Importació de llibreries i autentificació
+## 2. Importació de llibreries i autentificació
 
 A continuació importem llibreries
 
@@ -47,7 +47,7 @@ Ara podem extreure info de Twitch, per exemple demanem els streams dels 20 prime
 streams = twitch.get_streams(first=20, language="es") #exemple de petició de streams. Acotem als primers 20 i en espanuol. Podem consultar la resta de paràmetres a la pàgina de documentació de la API
 
 ```
-### 3. Exportat a json
+## 3. Exportat a json
 
 Això genera una llista de dades poc clarificadores. Bolquem les dades a un fitxer json
 
