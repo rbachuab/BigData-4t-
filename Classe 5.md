@@ -1,7 +1,7 @@
 
 # Anàlisi Dataset Twitch mes de Febrer 2023
 
-##Importació
+## Importació
 
 ```python
 import pandas as pd
