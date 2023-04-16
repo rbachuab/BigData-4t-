@@ -11,3 +11,15 @@
 [14/03/2023 - Twitch API 2, Anàlisi Dataset](https://github.com/rbachuab/BigData-4t-/blob/main/Classe%205.md)
 
 [21/03/2023 - Spotify API](https://github.com/rbachuab/BigData-4t-/blob/main/Classe%206.md)
+
+
+--------------------------------------------------------------------------------------
+
+[Exercici Pandas - escrit](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/00_escrit.md)
+
+- [Exercici Pandas: Ex1.py](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Ex1.py)
+- [Exercici Pandas: Ex2.py](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Ex2.py)
+- [Exercici Pandas: Ex3.py](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Ex3.py)
+- [Exercici Pandas: Ex4.py](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Ex4.py)
+- [Exercici Pandas: Ex5.py](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Ex5.py)
+
