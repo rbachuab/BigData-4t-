@@ -1,8 +1,7 @@
 
 # 1. ¿Cuál ha sido la evolución de espectadores (captura a captura) durante el periodo?
 
-![[Pasted image 20230416102430.png]]
-
+![Evolució d'espectadors](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Pasted%20image%2020230416102430.png?raw=true)
 
 Analitzant el gràfic de l'evolució d'espectadors a Twitch durant el més de febrer, podem veure clarament que té un comportament cíclic: pels matins, de 8h a 15h aproximadament, el volum d'espectadors decreix fins a arribar a un mínim diari estable que ronda els 60.000 espectadors. De 15h a 20h es produeix una tendència a l'alça fins a arribar al primer pic dirari, al voltant de les 21h, aleshores decreix subtilment per remuntar a continuació fins al màxim diàri, que s'acostuma a produir a les 23h. Posteriorment, el volum d'espectadors segueix sent elevat, però segueix una tendència a la baixa fins que decreix pronunciadament entre les 3 del matí i les 8h. Aquest comportament descriu els habits de consum de la plataforma en parla castellana, sent la franja horaria del vespre la que més espectadors rep, tan per ser el moment en que la majoria de gent a Espanya no va a treballar o a l'escola, com per coincidir amb els espectadors de Sud-amèrica.
 
@@ -11,7 +10,7 @@ Vist el comportament cíclic, destaquen les variacions al llarg del mes en els p
 
 # 2. ¿Cuáles son las categorías más vistas y en las que más horas de directo se han realizado?
 
-![[Pasted image 20230416105844.png]]
+![Categories més vistes](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Pasted%20image%2020230416105844.png?raw=true)
 
 El top 10 categories més vistes el més de febrer de 2023 són Just Chatting, Sports, Minecraft, League of Legends, VALORANT, Hogwarts Legacy, GTA V, Fortnite, Special Events i FIFA 2023.
 
@@ -19,7 +18,7 @@ Destaca especialment el domini de Just Chatting (186.414.128 d'espectadors) per 
 
 Anem a veure les que més hores tenen:
 
-![[Pasted image 20230416111132.png]]
+![Categories per hores](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Pasted%20image%2020230416111132.png?raw=true)
 
 En aquest cas la categoria que apareix més al llarg de les captures és Fortnite (si dividim el nombre d'ocurrenciès fetes cada 15 min entre 4 obtenim un valor aproximat de 858 mil hores de directe), seguida de VALORANT, Just Chatting, League of Legends i Minecraft. 
 
@@ -27,9 +26,9 @@ Podem veure una petita correlació entre el nombre d'hores invertides i el volum
 
 D'entre totes aquestes categories, però, hi ha dos casos que destaquen per la seva excepcionalitat, i que no han aparegut en la segona gràfica que hem analitzat. Si comparem el volum d'hores en directe, amb el nombre total d'espectadors de cada categoria, ens trobem el gràfic a continuació:
 
-![[Pasted image 20230416113144.png]]
+![Categories mes vistes per hores invertides](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Pasted%20image%2020230416113144.png?raw=true)
 
-![[Pasted image 20230416113636.png]]
+![Top 10 categories](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Pasted%20image%2020230416113636.png?raw=true)
 
 Tan la categoria Sports com la categoria Special Events apareixen al top 10 de categories amb més espectadors, però les dues tenen un nombre d'hores en directe dràsticament inferior. Aquestes dades ens donen altra vegada nocions sobre la força que tenen els grans esdeveniments com a fenòmen a Twitch. La categoría Sports es la categoria en que es comptabilitza la Kings League, responsable del màxim pic d'audiència del mes de febrer. La categoria Special Events, tal com el nom indica, dona cabuda a aquest tipus d'esdeveniments. La capacitat d'atracció d'espectadors d'aquestes categories amb un volum d'hores de directe irrisòria en comparació amb la resta de categories dominants, demostres la gran popularitat que tenen aquests continguts dins de Twitch.
 
@@ -37,7 +36,7 @@ Tan la categoria Sports com la categoria Special Events apareixen al top 10 de c
 # 3. ¿Cómo han evolucionado (captura a captura) estas categorias a lo largo del mes?
 
 
-![[Pasted image 20230416115538.png]]
+![Evolució categories](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Pasted%20image%2020230416115538.png?raw=true)
 
 Si observem les evolucions de les 10 categories amb més espectadors durant el més de febrer es reafirma l'analisi fet anteriorment: els pics d'audiència coincideixen en gran mesura amb grans esdeveniments dins la plataforma.
 
@@ -47,7 +46,7 @@ Per altra banda, veiem com el comportament cíclic d'algunes de les categories e
 
 Seria interessant comparar el Top 10 categories de febrer, amb el Top 10 categories amb més espectadors de mesos anterios per veure quines són les categories amb una trajectòria més sòlida. D'aquesta manera podriem acabar d'aïllar alguns casos com el de Hogwarts Legacy, que es comporta d'una manera molt diferent a la resta de categories segurament més ben establertes.
 
-# 4. **¿Cuál es la distribución de los streamers si los clasificamos por volumenes de audiencia y horas realizadas?**
+# 4. ¿Cuál es la distribución de los streamers si los clasificamos por volumenes de audiencia y horas realizadas?
 
 
 Si observem els streamers més vistos a Twitch durant el mes de febrer veiem que destaca per davant de tot altre cop la Kings League, amb un total de 43.710.847 espectadors, seguida per ibai, illoJuan, ElSpreen, juanguarnizo, ElMariana, LVPEs, el xokas, auronplay i rivers_gg en el top 10 més vistos. A simple vista, es reafirma el lideratge d'actors com la Kings League i ibai en l'acaparament d'espectadors dins de Twitch, tal com veniem veient en la resta de l'anàlisi, situant-se entre els més vistos. És destacable la presencia també d'auronplay, que tot i no haver fer streamings durant tot el febrer, la tornada va ser prou potent com per colar-se en el top 10 amb més espectadors. 
@@ -56,11 +55,11 @@ Tanmateix, seria interessant analitzar en quines categories han passat més hore
 
 El rànquing canvia dràsticament quan analitzem el numero d'hores de directes realitzades al mes de febrer.
 
-![[Pasted image 20230416174719.png]]
+![Nombre d'hores en directe](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Pasted%20image%2020230416174719.png?raw=true)
 
 La llista que es mostra en la gràfica són canals que han deixat el directe obert al voltant de 672 hores, que corresponen a les hores que va tenir el mes de febrer. No obstant això, pel que fa al volum d'espectadors, tan sols el canal viviendoenlacalle té una suma important, concretament de 3.539.891 espectadors, col·locant-lo en la posició 22 dels streamers més vistos durant aquest mes. 
 
-![[Pasted image 20230416175736.png]]
+![Total espectadors per hores en directe](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Pasted%20image%2020230416175736.png?raw=true)
 
 Pel que fa al top 10 streamers més vistos, el que ha fet més hores és LVPes, al voltant de les 292 hores, situant-se en setena posició en volum d'espectadors. Mentre que com s'ha observat, auronplay, tot i només haver fet directe al voltant de 19 hores, ha superat en espectadors a la rivers_gg, que li triplicava el nombre d'hores, degut a la espectació de la seva tornada.
 
@@ -68,7 +67,7 @@ Amb aquestes dades es pot concloure que no hi ha una relació directe entre el n
 
 # 5. ¿Cuál ha sido la evolución (captura a captura) de la desviación estándar en el volumen de espectadores?
 
-![[Pasted image 20230416182308.png]]
+![Dispersió](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Pasted%20image%2020230416182308.png?raw=true)
 
 La desviació estándar en el volum d'espectadors es manté estable la majoria de dies del mes, excepte quan es produeixen picss de desviació coincidint amb els dies assenyalats pels esdeveniments, que marquen un punt de ruptura amb la tendència de la desviació quan no esprodueixen aquests esdeveniments. El 26 de febrer es situa com el dia amb una variació més alta en el nombre d'espectadors del més de febrer.
 
