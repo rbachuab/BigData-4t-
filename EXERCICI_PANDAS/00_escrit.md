@@ -48,6 +48,7 @@ Seria interessant comparar el Top 10 categories de febrer, amb el Top 10 categor
 
 # 4. ¿Cuál es la distribución de los streamers si los clasificamos por volumenes de audiencia y horas realizadas?
 
+![Top streamers](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Pasted%20image%2020230416191707.png?raw=true)
 
 Si observem els streamers més vistos a Twitch durant el mes de febrer veiem que destaca per davant de tot altre cop la Kings League, amb un total de 43.710.847 espectadors, seguida per ibai, illoJuan, ElSpreen, juanguarnizo, ElMariana, LVPEs, el xokas, auronplay i rivers_gg en el top 10 més vistos. A simple vista, es reafirma el lideratge d'actors com la Kings League i ibai en l'acaparament d'espectadors dins de Twitch, tal com veniem veient en la resta de l'anàlisi, situant-se entre els més vistos. És destacable la presencia també d'auronplay, que tot i no haver fer streamings durant tot el febrer, la tornada va ser prou potent com per colar-se en el top 10 amb més espectadors. 
 
