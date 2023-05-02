@@ -25,5 +25,6 @@
 
 ---------------------------------------------------------------------------------------
 
-[Exercici Twitter - escrit (https://github.com/rbachuab/BigData-4t-/blob/main/Exercici%20Twitter/escrit.md)
+[Exercici Twitter - escrit] (https://github.com/rbachuab/BigData-4t-/blob/main/Exercici%20Twitter/escrit.md)
+
  -[Exercici Twitter: main.py](https://github.com/rbachuab/BigData-4t-/blob/main/Exercici%20Twitter/main.py)
