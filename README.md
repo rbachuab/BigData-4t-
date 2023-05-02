@@ -23,3 +23,7 @@
 - [Exercici Pandas: Ex4.py](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Ex4.py)
 - [Exercici Pandas: Ex5.py](https://github.com/rbachuab/BigData-4t-/blob/main/EXERCICI_PANDAS/Ex5.py)
 
+---------------------------------------------------------------------------------------
+
+[Exercici Twitter - escrit (https://github.com/rbachuab/BigData-4t-/blob/main/Exercici%20Twitter/escrit.md)
+ -[Exercici Twitter: main.py](https://github.com/rbachuab/BigData-4t-/blob/main/Exercici%20Twitter/main.py)
