@@ -9,7 +9,7 @@ Tenint en compte, doncs, que partim de l'anàlisi de 30.044 tweets, anem a respo
 
 # Quin és el candidat més mencionat?
 
-![[Pasted image 20230501112657.png]]
+![](https://github.com/rbachuab/BigData-4t-/blob/main/Exercici%20Twitter/Pasted%20image%2020230501112657.png)
 
 Si observem els candidats per nombre de tweets en què apareixen mencionats, ens trobem amb uns resultats desproporcionats. L'Ada Colau concentra el 76,44% dels tweets, concretament 22.966, sent la que més opinió genera per part dels usuaris. Mentre que el segon més mencionat, en Xavier Trias, se'l menciona gairebé deu vegades menys: 2.807 tweets. Les candidates per Valents i la Cup, Eva Parera i Basha Changue, tenen un volum similar de tweets, seguides de l'Anna Grau, Jaume Collboni i finalment, Daniel Sirera, que tanca la llista amb 601 mencions. 
 
@@ -17,7 +17,7 @@ Un fet a tenir en compte en els resultats és que mentre la resta de candidats n
 
 # Quina és la repercussió dels tweets en què es mencionen els candidats?
 
-![[Pasted image 20230501183034.png]]
+![](https://github.com/rbachuab/BigData-4t-/blob/main/Exercici%20Twitter/Pasted%20image%2020230501183034.png)
 
 Vist que l'Ada Colau és la que més volum de mencions acumula, analitzem quina repercussió tenen els tweets en què es menciona cadascun dels candidats. Per fer-ho tindrem en compte en la mitjana de likes, la mitjana de replies i la mitjana de retweets de cada menció. 
 
@@ -33,7 +33,7 @@ Seria interessant vincular aquestes mètriques al contingut del text, per veure 
 
 # Quins són els usuaris més actius?
 
-![[Pasted image 20230501183535.png]]
+![](https://github.com/rbachuab/BigData-4t-/blob/main/Exercici%20Twitter/Pasted%20image%2020230501183535.png)
 
 Els 15 usuaris que han fet més mencions a candidats n'han fet entre 29 i 70. En primer lloc, trobem el diari naciodigital amb 70 mencions, seguit de 5 usuaris i el compte del diari El Nacional.cat. Altres comptes rellevants són BTVnotícies, bcnencomu (el partit de l'Ada Colau) i el compte de CUPBarcelona (el partit de Basha Changue).
 
@@ -43,7 +43,7 @@ Anem a veure sobre qui creen tweets cadascun d'aquests comptes per detectar si e
 
 # A qui mencionen aquests usuaris?
 
-![[Pasted image 20230501190005.png]]
+![](https://github.com/rbachuab/BigData-4t-/blob/main/Exercici%20Twitter/Pasted%20image%2020230501190005.png)
 
 El compte més actiu, @naciodigital ha mencionat de manera gairebé equitativa a tots els candidats -si bé Anna Grau ha rebut menys mencions i Ada Colau una mica més- tenint en compte que no totes les mencions de l'Ada Colau tenen relació amb les eleccions, podem dir que tractant-se d'un mitjà, ha comunicat de forma imparcial en el nombre de mencions, a falta d'analitzar el contingut. Una distribució semblant en el repartiment de mencions el trobem en els altres mitjans detectats, @btvnoticies i @elnacionalcat, aquest últim amb una mica més de fixació cap a Xavier Trias. 
 
@@ -51,7 +51,7 @@ El fenomen interessant comença a partir de l'observació del segon usuari més 
 
 # Visualització de les mencions 
 
-![[Graf.png]]
+![](https://github.com/rbachuab/BigData-4t-/blob/main/Exercici%20Twitter/Graf.png)
 
 En aquest graf estan representades totes les mencions dels usuaris cap a un o més candidats a les eleccions municipals de Barcelona. Els núvols de punts, desemboquen a un o més nodes centrals, que representen cadascun dels candidats, els colors ens indiquen la proximitat de l'usuari a cada comunitat.
 
@@ -63,4 +63,4 @@ Per contra, el núvol de nodes situat al centre del gràfic i que fa de punt d'u
 
 Si observem la resta de candidats, podem detectar un altre fenomen del qual hem parlat, i que en la comunitat que envolta l'Ada és difícil de destriar pel soroll de mencions alienes que hi ha. Tots els candidats tenen un núvol d'usuaris que l'apunten quasi exclusivament al seu node. Una part d'aquestes mencions, es donarà el cas com l'Ada Colau, que són alienes a la conversa al voltant de les eleccions, però entre aquestes agrupacions d'usuaris, es troben també els comptes que a l'apartat anterior hem etiquetat com a generadores d'opinió sobre els candidats, és a dir, els comptes que publiquen per alimentar la discussió sobre un dels polítics en concret, i no sobre la resta.
 
-![[Pasted image 20230502174111.png]]
+![](https://github.com/rbachuab/BigData-4t-/blob/main/Exercici%20Twitter/Pasted%20image%2020230502174111.png)
