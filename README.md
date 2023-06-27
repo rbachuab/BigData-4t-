@@ -10,7 +10,7 @@
 
 [14/03/2023 - Twitch API 2, Anàlisi Dataset](https://github.com/rbachuab/BigData-4t-/blob/main/Classe%205.md)
 
-[21/03/2023 - Spotify API](https://github.com/rbachuab/BigData-4t-/blob/main/Classe%206.md)
+[21/03/2023 - Spotify API i anàlisi de missatges d'odi](https://github.com/rbachuab/BigData-4t-/blob/main/Classe%206.md)
 
 
 --------------------------------------------------------------------------------------
