@@ -68,7 +68,7 @@ Per generar un graph necessitem crear una llista amb dues dimencions: source|tar
 que estableixi les relacions de recomanació.
 
 
-#IA Anàlisi de missatges d'odi a RRSS 
+# IA Anàlisi de missatges d'odi a RRSS 
 
 
 
@@ -90,7 +90,7 @@ pipe = pipeline("text-classification")
 32 / 54
 En retornarà tot el que podem fer 
 
-# Tokenizer 
+## Tokenizer 
 
 el sistema agafa la frase i segmenta, per segmentar necessita el tokenizer 
 
@@ -104,7 +104,7 @@ RAW DATA --> Tokenitzador (fragmenta la info a processar i atorga una puntuació
 # pip install transformers 
 # pip install torch 
 ##### 
-33 / 54
+
 
 ##### EJEMPLOS DE MODELOS 
 # https://huggingface.co/MMG/xlm-roberta-base-sa-spanish 
@@ -117,18 +117,16 @@ import pandas as pd
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline 
 
 df = pd.read_csv("dataset-inmigracion.csv", nrows=100, usecols=["tweet_id","text"]) 
-34 / 54
 print(df) #carreguem dataset 
 
-# Carregar Model 
+## Carregar Model 
 tokenizer = AutoTokenizer.from_pretrained("jorgeortizfuentes/spanish_hate_speech") #agafem el model que volem 
 model = AutoModelForSequenceClassification.from_pretrained("jorgeortizfuentes/spanish_hate_speech")#el carreguem 
 
-# Generar el Pipeline 
+## Generar el Pipeline 
 pipe = pipeline("text-classification", model=model, tokenizer=tokenizer) #el tokenizer és l'encarregat de fragmentar la frase 
 
 tweets = df["text"].to_list() #generem una llista de tweets 
-35 / 54
 tweet_id = df["tweet_id"].to_list() #generem una llista de tweet_ids 
 
 tup_list = [] 
